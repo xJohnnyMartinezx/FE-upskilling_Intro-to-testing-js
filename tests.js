@@ -20,8 +20,12 @@ describe("sayHello", function(){
         expect(typeof sayHello).toBe("function");
        });
     // ****** EXERCISE 2. ************
-    it('should return a string when called', function() {
+    it("should return a string when called", function() {
         expect(typeof sayHello()).toBe("string");
+    });
+    // ****** EXERCISE 3. ************
+    it('should return the string "Hello, Jane!" when executed', function (){
+        expect(sayHello()).toBe("Hello, Jane!");
     });
 })
 

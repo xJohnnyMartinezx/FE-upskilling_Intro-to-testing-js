@@ -6,5 +6,7 @@ function helloWorld() {
 //******** EXERCISE 1. **********
 function sayHello() {
     //******** EXERCISE 2. **********
-    return "";
+    // return "";
+    //******** EXERCISE 3. **********
+    return "Hello, Jane!"
 }
