@@ -128,3 +128,28 @@ describe('isVowel', function() {
         expect(isVowel()).toBe(false);
     });
 });
+
+// ****** EXERCISES 13. ************
+describe('add', function() {
+    it('should be a defined function', function() {
+        expect(typeof add).toBe('function');
+    });
+    it('should return 5 when called with (2, 3)', function() {
+        expect(add(2, 3)).toBe(5);
+    });
+    it('should return -12 when called with (-3, -9)', function() {
+        expect(add(-3, -9)).toBe(-12);
+    });
+    it('should return 11 when called with ("6", 5)', function() {
+        expect(add("6", 5)).toBe(11);
+    });
+    it('should return NaN when called with ("banana", "split")', function() {
+        expect(add("banana", "split")).toBeNaN();
+    });
+    it('should return NaN when called with (2, "apples")', function() {
+        expect(add(2, "apples")).toBeNaN();
+    });
+    it('should return NaN when called without an argument', function () {
+        expect(add()).toBeNaN();
+    });
+});
