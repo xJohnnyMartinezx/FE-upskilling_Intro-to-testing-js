@@ -38,11 +38,38 @@ function sayHello(name) {
 
 // ****** EXERCISES 10. ************
 // function isFive() {
-// return true;
+// // return true;
+// return false;
 // }
 
 function isFive(num) {
     return num === 5 || num === "5";
 }
+
+// ****** EXERCISES 11. ************
+// function isEven(){
+//   // return true;
+//   return false;
+// }
+
+function isEven(evenNum){
+    // return evenNum === 2 || evenNum === -4 || evenNum === 8;
+    if (typeof evenNum == "boolean"){
+        return false;
+    } else {
+        return evenNum % 2 === 0;
+    }
+}
+
+
+
+// ****** EXERCISES 12. ************
+
+
+
+
+// ****** EXERCISES 13. ************
+
+
 
 
