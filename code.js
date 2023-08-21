@@ -11,9 +11,9 @@ function helloWorld() {
 //     return "Hello, Jane!"
 // }
 
-// ****** EXERCISE 4. ************
+// ****** EXERCISE 4 & 5. ************
 function sayHello(input) {
-    if (input === "Alex"){
+    if (input === "Alex" || input === "Pat"){
         return `Hello, ${input}!`;
     } else {
         return "Hello, Jane!";
