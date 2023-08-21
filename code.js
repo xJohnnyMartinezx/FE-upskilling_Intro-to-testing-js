@@ -11,11 +11,16 @@ function helloWorld() {
 //     return "Hello, Jane!"
 // }
 
-// ****** EXERCISE 4 & 5. ************
-function sayHello(input) {
-    if (input === "Alex" || input === "Pat"){
-        return `Hello, ${input}!`;
-    } else {
-        return "Hello, Jane!";
-    }
+// // ****** EXERCISE 4 & 5. ************
+// function sayHello(input) {
+//     if (input === "Alex" || input === "Pat"){
+//         return `Hello, ${input}!`;
+//     } else {
+//         return "Hello, Jane!";
+//     }
+// }
+
+// ****** EXERCISE 6 & 7. ************
+function sayHello(name) {
+    return `Hello, ${name}!`;
 }
