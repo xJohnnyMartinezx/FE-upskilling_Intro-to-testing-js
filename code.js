@@ -64,7 +64,14 @@ function isEven(evenNum){
 
 
 // ****** EXERCISES 12. ************
-
+function isVowel(letter){
+    let vowels = "aeiou";
+    if (typeof letter !== 'string'){
+        return false;
+    } else {
+        return vowels.includes(letter.toLowerCase());
+    }
+}
 
 
 
