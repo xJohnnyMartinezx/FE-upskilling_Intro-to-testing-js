@@ -11,7 +11,7 @@ function helloWorld() {
 //     return "Hello, Jane!"
 // }
 
-// // ****** EXERCISE 4 & 5. ************
+// // ****** EXERCISES 4 & 5. ************
 // function sayHello(input) {
 //     if (input === "Alex" || input === "Pat"){
 //         return `Hello, ${input}!`;
@@ -20,7 +20,17 @@ function helloWorld() {
 //     }
 // }
 
-// ****** EXERCISE 6 & 7. ************
+// // ****** EXERCISES 6 & 7. ************
+// function sayHello(name) {
+//     return `Hello, ${name}!`;
+// }
+
+// ****** EXERCISES 8 and 9. ************
 function sayHello(name) {
-    return `Hello, ${name}!`;
+    // if (name === undefined || name === true || name === false){
+    if (typeof (name) !== typeof(String())){
+        return "Hello, World!";
+    } else {
+        return `Hello, ${name}!`;
+    }
 }
