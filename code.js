@@ -34,3 +34,15 @@ function sayHello(name) {
         return `Hello, ${name}!`;
     }
 }
+
+
+// ****** EXERCISES 10. ************
+// function isFive() {
+// return true;
+// }
+
+function isFive(num) {
+    return num === 5 || num === "5";
+}
+
+

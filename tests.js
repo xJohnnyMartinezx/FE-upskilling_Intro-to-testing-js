@@ -45,5 +45,21 @@ describe("sayHello", function(){
     it('should return the string "Hello, World!" when executed with false boolean arg.', function (){
         expect(sayHello(false)).toBe("Hello, World!");
     });
-})
+});
+
+// ****** EXERCISE 10. ************
+describe("isFive", function() {
+    it("should be a defined function", function () {
+        expect(typeof isFive).toBe("function");
+    });
+    it('should return a boolean when executed', function (){
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it('should return true when input is 5', function (){
+        expect(isFive(5)).toBe(true);
+    });
+    it('should return true when input is 5 of type String', function (){
+        expect(isFive("5")).toBe(true);
+    });
+});
 
